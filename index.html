@@ -4,12 +4,58 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Civic Signings | Mobile Notary & Loan Signing Services</title>
+<title>Mobile Notary & Loan Signing Services</title>
 
 <style>
 /* RESET */
 *{
     box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background:#fff;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    z-index:1000;
+}
+
+.nav-container{
+    max-width:1100px;
+    margin:auto;
+    padding:15px 25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo-text{
+    font-size:1.2rem;
+    font-weight:600;
+    color:#16324f;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:28px;
+    margin:0;
+    padding:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:.2s;
+}
+
+nav a:hover{
+    color:#16324f;
 }
 
 html, body{
@@ -125,7 +171,18 @@ footer{
 </style>
 
 </head>
+<nav>
+    <div class="nav-container">
+        <div class="logo-text">Civic Signings</div>
 
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service-area">Service Area</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 <body>
 
 <header>
@@ -137,14 +194,19 @@ footer{
 
     <h1>Mobile Notary & Loan Signing Services</h1>
     <p></p>
+
+
+
 </header>
 
 <div class="container">
 
     <h2>Professional Notary Services</h2>
-    <p>
-        Reliable mobile notary and loan signing services provided with accuracy, professionalism, and convenience. Serving South Orange County, including Mission Viejo, Rancho Santa Margarita, Lake Forest, Irvine, Laguna Niguel, San Juan Capistrano, and surrounding communities.
-        Available by appointment.
+
+
+<section id="about"> 
+   <p>
+        Reliable mobile notary and loan signing services provided with accuracy, professionalism, and convenience. 
     </p>
 
     <div class="badges">
@@ -155,6 +217,7 @@ footer{
         <span class="badge">Bonded & E&O Insured</span>
     </div>
 
+<section id="services">
     <h2>Services</h2>
     <ul>
         <li>Loan document signings</li>
@@ -164,9 +227,12 @@ footer{
         <li>Mobile service to your location</li>
     </ul>
 
+<section id="service-area">
     <h2>Service Area</h2>
-    <p>Serving Orange County and surrounding areas by appointment.</p>
+    <p>Serving South Orange County, including Mission Viejo, Rancho Santa Margarita, Lake Forest, Irvine, Laguna Niguel, San Juan Capistrano, and surrounding communities.
+        Available by appointment.</p>
 
+<section id="contact">
     <div class="contact">
         <h2>Contact</h2>
         <a class="button" href="tel:9493742268">Call</a>
